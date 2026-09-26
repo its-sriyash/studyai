@@ -2,6 +2,11 @@
 
 AI-Powered Study Assistant — Turn any topic into interactive flashcards.
 
+## Live Demo
+
+- **Production URL**: [https://studyai-nine-tau.vercel.app](https://studyai-nine-tau.vercel.app)
+- **GitHub Repository**: [https://github.com/its-sriyash/studyai](https://github.com/its-sriyash/studyai)
+
 ## Overview
 
 StudyAI is a single-page React application that takes free-form text input (topics, notes, or learning requests) and generates interactive flashcard decks using an LLM (Groq API). The user can flip cards, navigate through the deck, mark cards as correct or wrong, retest incorrect cards, and restart the session.
@@ -20,6 +25,7 @@ This is **not** a chatbot. The AI response is structured JSON that is validated 
 - **Restart** — Go through the full deck again
 - **Stale-request protection** — Rapid successive requests won't overwrite newer results
 - **Comprehensive error handling** — Visible UI states for loading, errors, empty input, malformed JSON
+- **Dark & Light Mode** — Premium AirShare-inspired dark theme and warm ivory/peach light theme with seamless toggle
 - **Responsive design** — Works on desktop and mobile
 - **Accessibility** — Keyboard-navigable, proper ARIA labels, semantic HTML
 
